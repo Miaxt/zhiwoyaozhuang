@@ -1,0 +1,46 @@
+{
+	"hufu":{
+		"ad1":"../images/goodList/hufu_ad1_0.jpg",
+		"ad2":"../images/goodList/hufu_ad2_0.jpg",
+		"src":["../images/goodList/hufu_img_small0.jpg",
+						"../images/goodList/hufu_img_small1.jpg",
+						"../images/goodList/hufu_img_big0.jpg",
+						"../images/goodList/hufu_img_small2.jpg",
+						"../images/goodList/hufu_img_small3.jpg"],
+		"name":["倩碧FY16经典三步曲礼包7件套","伊思It s skin红参蜗牛再生水140ml+乳液140ml","可莱丝胎盘鱼子酱面膜10片*2","九朵云二代马油膏（浅桔） 70g","植美村 蜡菊多效修护日夜眼霜20ml*2（手绘板送画笔）"],
+		"price":["136","358","139","138","79"]
+	},
+	"yaozhuang":{
+		"ad1":"../images/goodList/yaozhuang_ad1_0.jpg",
+		"ad2":"../images/goodList/yaozhuang_ad2_0.jpg",
+		"src":["../images/goodList/yaozhuang_img_small0.jpg",
+						"../images/goodList/yaozhuang_img_small1.jpg",
+						"../images/goodList/yaozhuang_img_big0.jpg",
+						"../images/goodList/yaozhuang_img_small2.jpg",
+						"../images/goodList/yaozhuang_img_small3.jpg"],
+		"name":["雅漾润唇膏4.0g","丝塔芙保湿乳液118ml（专柜）","SNP维他命果冻美白面膜（橙色）10片","Esthe Dew伊特露樱桃精华高保湿化妆水500ml","薇姿温泉矿物水活霜(清爽型)50ml"],
+		"price":["79","49","89","85","169"]
+	},
+	"huli":{
+		"ad1":"../images/goodList/huli_ad1_0.jpg",
+		"ad2":"../images/goodList/huli_ad2_0.jpg",
+		"src":["../images/goodList/huli_img_small0.jpg",
+						"../images/goodList/huli_img_small1.jpg",
+						"../images/goodList/huli_img_big0.jpg",
+						"../images/goodList/huli_img_small2.jpg",
+						"../images/goodList/huli_img_small3.jpg"],
+		"name":["英国femfresh女性私密洗护液(洋甘菊)250ml","Jurlique茱莉蔻玫瑰滋润护手霜125ml","英国AA网焕然新生洗发皂50g","润膏YUNGO洗发水护发素二合一250ml","舒德尔玛生理性海水鼻腔喷雾器 50ml"],
+		"price":["65","289","69","68","119"]
+	},
+	"caizhuang":{
+		"ad1":"../images/goodList/caizhuang_ad1_0.jpg",
+		"ad2":"../images/goodList/caizhuang_ad2_0.jpg",
+		"src":["../images/goodList/caizhuang_img_small0.jpg",
+						"../images/goodList/caizhuang_img_small1.jpg",
+						"../images/goodList/caizhuang_img_big0.jpg",
+						"../images/goodList/caizhuang_img_small2.jpg",
+						"../images/goodList/caizhuang_img_small3.jpg"],
+		"name":["Dior迪奥甜心小姐淡香氛5ml","Kiss Me奇士美花漾美姬浓密防水睫毛膏 6g","韩国AHC玻尿酸修复气垫BB霜13  12g+含替换装","skin food巧克力眉粉饼2 （灰褐）2g","智美蜗牛白玉蜗牛特润滋养润唇膏3.8g"],
+		"price":["49","79","149","42","49"]
+	}
+}

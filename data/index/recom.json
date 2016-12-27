@@ -1,0 +1,7 @@
+{
+	"proImg":["../images/index/r_img1.jpg","../images/index/r_img2.jpg","../images/index/r_img3.jpg",
+	"../images/index/r_img4.jpg","../images/index/r_img5.jpg","../images/index/r_img6.jpg","../images/index/r_img7.jpg","../images/index/r_img8.jpg","../images/index/r_img9.jpg","../images/index/r_img10.jpg","../images/index/r_img11.jpg","../images/index/r_img12.jpg","../images/index/r_img13.jpg","../images/index/r_img14.jpg","../images/index/r_img1.jpg","../images/index/r_img1.jpg"],
+	"proName":["凡士林特效润肤霜","我的美丽日志珍珠粉面膜10片/盒","301研制京卫本草杏仁胎","MZING彩妆套装","凡士林特效润肤霜","我的美丽日志珍珠粉面膜10片/盒","301研制京卫本草杏仁胎","MZING彩妆套装","凡士林特效润肤霜","我的美丽日志珍珠粉面膜10片/盒","301研制京卫本草杏仁胎","MZING彩妆套装","凡士林特效润肤霜","我的美丽日志珍珠粉面膜10片/盒","301研制京卫本草杏仁胎","MZING彩妆套装"],
+	"proPrice":[99,120,50,80,90,110,1000,999,998,150,1,30,45,48,79,46],
+	"priceDel":[46,79,48,45,30,1,150,998,999,1000,110,90,80,50,120,99]
+}

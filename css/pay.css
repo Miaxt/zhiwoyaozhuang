@@ -1,0 +1,397 @@
+/*头部*/
+	#shopCarHeader{
+		width:100%;
+		height:108px;
+		background: #fff;
+		color: #6C6C6C;
+	}
+	.shopCarHeader{
+		width:1103px;
+		margin:0 auto
+	}
+	.header_payflow_img{
+		float: right;
+		margin-top:26px
+	}
+	.step_img{
+		text-align: right;
+		font-size: 0;
+		padding-right: 26px;
+	}
+	.step_item{
+		display: inline-block;
+		overflow: hidden;
+	}
+	.step_num{
+		float: left;
+	    width: 35px;
+	    height: 35px;
+	    background: url(../images/shopCar/liucheng_bg.png) no-repeat 0 0;
+	    text-align: center;
+	    line-height: 35px;
+	    color: #fff;
+	    font-size: 20px;
+	    font-family: Arial;
+	}
+	.step_line{
+	    float: left;
+		width: 75px;
+	    height: 5px;
+	    background: #6c6c6c;
+	    margin-top: 15px;
+	    position: relative;
+	}
+	.step_line i {
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 75px;
+	    height: 5px;
+	    background: #00c8ff;
+	    display: none;
+	}
+	.step_item_present .step_num {
+	    background-position: 0 -35px;
+	}
+	.step_item_present .step_line i {
+	    display: block;
+	}
+	.step_text li{
+		display: inline-block;
+		margin-top:8px;
+	}
+	.step_text1{
+		margin-left:4px;
+		width:164px;
+	}
+	.step_text2{
+		margin-left:14px;
+		width:110px
+	}
+	.step_text3{
+		margin-left:80px;
+	}
+	.step_text .step_item_present {
+	    color: #00c8ff;
+	}
+		
+
+/*主体*/
+	#container{
+		width:100%;
+		background:#f2f2f2;
+		padding:35px 0;
+	}
+	.container{
+		width:1103px;
+		margin:0 auto;
+	}
+	
+	/*收货地址*/
+	.paycfm_title{
+		margin-bottom: 18px;
+   		overflow: hidden;
+	}
+	.paycfm_title span{
+		width: 19px;
+	    height: 19px;
+	    line-height: 19px;
+	    text-align: center;
+	    color: #fff;
+	    font-size: 14px;
+	    font-family: Arial;
+	    background: url(../images/pay/shopcar_ico.png) no-repeat 0 -53px;
+	    float: left;
+	    margin: 3px 9px 0 0;
+	}
+	.paycfm_title em{
+		font-style: normal;
+	}
+	.paycfm_newcont p{
+		height: 24px;
+   	 	margin-top: 14px;
+	}
+	.paycfm_newcont p label {
+	    float: left;
+	    width: 86px;
+	    height: 24px;
+	    line-height: 24px;
+	    text-align: right;
+	}
+	.paycfm_newcont p i {
+	    float: left;
+	    width: 18px;
+	    height: 24px;
+	    line-height: 24px;
+	    font-style: normal;
+	    color: #ff643c;
+	    margin-left:5px
+	}
+	.paycfm_newcont input {
+	    float: left;
+	    height: 14px;
+	    line-height: 14px;
+	    padding: 4px 0 4px 6px;
+	    color: #6c6c6c;
+	    border: 1px #c4c4c4 solid;
+	}
+	.paycfm_newcont select{
+		width: 125px;
+	    height: 24px;
+	    line-height: 24px;
+	    border: 1px #c4c4c4 solid;
+	    color: #6c6c6c;
+	    float: left;
+	    margin-right: 10px;
+	}
+	.paycfm_pername{
+	    width: 211px;
+	}
+	.paycfm_peraddress{
+		width: 420px;
+	}
+	.paycfm_perpostcode{
+		width: 133px;
+	}
+	.paycfm_perphone{
+		width: 133px;
+	}
+	.paycfm_peremail{
+		width: 223px;
+		margin-left:23px;
+	}
+	.save_btn{
+	    width: 90px;
+	    background: #ff643c;
+	    margin-left: 109px;
+	}
+	.save_btn a{
+	    color: #fff;
+	    display: block;
+	    width: 90px;
+	    height: 26px;
+	    line-height: 26px;
+	    text-align: center;
+	}
+	/*保存地址*/
+	.user_addressbox{
+		height:50px;
+		width:100%;
+		margin-top:10px ;
+		padding-top:5px;
+		padding-left:30px
+	}
+	.user_addressbox h3{
+		font-size:15px;
+		color: #00c8ff;
+		margin-bottom: 10px;
+	}
+	.user_address{
+		overflow: hidden;
+		margin-bottom: 5px;
+		width: 100%;
+		padding:10px 0;
+		font-size:14px;
+		border-bottom: 1px dashed #3FC3EE;
+	}
+	.user_address p{
+		float: left;
+		margin-right:50px;
+	}
+	.del_address{
+		float: right;
+		font-size:11px
+	}
+	.paycfm_title a{
+		float: right;
+	    font-size: 14px;
+	    line-height: 24px;
+	    color: #6c6c6c;
+	    font-weight: normal;
+	}
+	.paycfm_addressbox,.paycfm_probox{
+	    width: 1043px;
+	    padding: 20px 30px 30px;
+	    background: #fff;
+	    margin-bottom: 5px;
+	}
+	
+	.paycfm_waybox,.paycfm_beizhubox{
+		width: 1043px;
+	    padding: 20px 30px;
+	    background: #fff;
+	}
+	.paycfm_waybox{
+	    margin-bottom: 5px;
+	}
+
+	/*购物车商品*/
+	.good_detail{
+		height:150px;
+		line-height:150px;
+		margin-bottom: 20px;
+		padding:0 30px;
+	}
+	.good_detail div{
+		float:left;
+	}
+	.good_name{
+		width:280px;
+		font-size:16px;
+		/*line-height:10px;*/
+		line-height:20px;
+		margin-left:20px;
+	}
+	.good_num{
+		font-size:20px;
+		margin-left:100px;
+		color: brown;
+	}
+	.good_price{
+		font-size:20px;
+		margin-left:100px;
+		color:#f00;
+	}
+	.single_price{
+		margin-top:5px;
+		font-size:12px;
+		color:#FF0000;		
+	}
+	.good_img img{
+		width:150px;
+		height:150px;
+		vertical-align: middle;
+	}
+	.priceBox{
+	    margin-top: 20px;
+	    position: relative;
+	    min-height: 100px;
+	}
+	.price_list{
+		position: absolute;
+	    right: 6px;
+	    bottom: -16px;
+	}
+	.price_list p{
+	    overflow: hidden;
+	    line-height: 26px;
+	}
+	.price_list p em {
+	    font-style: normal;
+	    font-size: 14px;
+	    font-weight: bold;
+	    width: 120px;
+	    text-align: right;
+	}
+	.price_list p em i {
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	.price_list em,.price_list .total_cont{
+		float:right;
+	}
+	.paycfm_total em{
+		font-size: 14px;
+	   	color: #ff643c;
+	}
+	.need_pay{
+	    font-size: 22px;
+	}
+	.payonline_way{
+		overflow: hidden;
+	}
+	.payonline_way dt{
+	    width: 100%;
+	    font-size: 18px;
+	    color: rgb(0, 0, 0);
+	    font-family: 微软雅黑;
+	    margin-bottom: 13px;
+	    float: left;
+	}
+	.payonline_way dd {
+	    margin-right: 27px;
+	    cursor: pointer;
+	    float: left;
+	    margin-bottom: 10px;
+	}
+	.payonline_way dd label {
+	    float: left;
+	    width: 14px;
+	    height: 14px;
+	    background: url(../images/pay/sel.png) no-repeat 0 0;
+	    margin: 13px 5px 0 0;
+	    cursor: pointer;
+	}
+	.pay_way_list{
+		width: 138px;
+	    height: 38px;
+	    border: 1px #c4c4c4 solid;
+	    position: relative;
+	    float: left;
+	    cursor: pointer;
+	    background: url(../images/pay/shopcar_ico4.png) no-repeat 0 0;
+	}
+	dd.current .pay_way_list{
+	    border: 1px #ff643c solid;
+	}
+	dd.current label{
+	    background-position: 0 -20px;
+	}
+	.alipayQr{
+		background-position:0 -382px;;
+	}
+
+
+	/*备注栏*/
+	.paycfm_contbox{
+		overflow: hidden;
+	}
+	.beiZhuBox{
+	    width: 490px;
+   		float: left;
+	}
+	.makeSureBox{
+	    width: 370px;
+	    float: right;
+	    padding: 0;
+	    margin: 0;
+	}
+	.beiZhu_info{
+		width: 480px;
+	    height: 14px;
+	    border: 0;
+	    border: 1px #c4c4c4 solid;
+	    margin-top: 10px;
+	    color: #6c6c6c;
+	    padding: 4px 10px;
+	    line-height: 14px;
+	}
+	.makeSure_btn{
+	    width: 126px;
+	    height: 45px;
+	    line-height: 45px;
+	    float: right;
+	    color: #fff;
+	    text-align: center;
+	    font-family: '微软雅黑';
+	    font-size: 24px;
+	    background: #ff643c;
+	    margin-left: 22px;
+	}
+	.makeSureBox span{
+		float: right;
+	    margin-top: 3px;
+	}
+	.makeSureBox i{
+	    color: #ff643c;
+	    font-family: '微软雅黑';
+	    font-size: 20px;
+	    font-style: normal;
+	}
+	.makeSureBox em{
+		color: #ff643c;
+	    font-style: normal;
+	    font-family: Arial;
+	    font-size: 36px;
+	}

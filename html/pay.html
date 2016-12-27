@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../css/pay.css" />
+	</head>
+	<body>
+		<!--顶部-->
+		<div id="top">
+		</div>
+		<!--头部-->
+		<div id = "shopCarHeader">
+			<div class="shopCarHeader">
+				<a href="index.html"><img src="../images/common/logo.jpg"/></a>
+				<div class="header_payflow_img">
+					<ul class="step_img">
+						<li class="step_item step_item_present">
+							<span class="step_num">1</span>
+							<span class="step_line"><i></i></span>
+						</li>
+						<li class="step_item step_item_present">
+							<span class="step_line"><i></i></span>
+							<span class="step_num">2</span>
+							<span class="step_line"><i></i></span>
+						</li>
+						<li class="step_item">
+							<span class="step_line"><i></i></span>
+							<span class="step_num">3</span>
+						</li>
+					</ul>
+					<ul class="step_text">
+						<li class="step_text1 step_item_present">我的购物车</li>
+						<li class="step_text2">确认订单信息</li>
+						<li class="step_text3">成功提交订单</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+			
+		<!--主体-->
+		<div id="container">
+			<div class="container">
+				<div class="paycfm_addressbox">
+					<h2 class="paycfm_title">
+						<span>1</span>
+						<em>收货地址</em>
+					</h2>
+					<div class="paycfm_newcont">
+						<p>
+							<label for>收件人姓名:</label>
+							<i>*</i>
+							<input class="paycfm_pername" type="text"/>
+						</p>
+						<p>
+							<label for>所在地区:</label>
+							<i>*</i>
+							<select id="s_province" name="s_province"></select>  
+						    <select id="s_city" name="s_city" ></select>  
+						    <select id="s_county" name="s_county"></select>
+						    <script class="resources library" src="../lib/area.js" type="text/javascript"></script>								    
+						    <script type="text/javascript">_init_area();</script>					
+						</p>
+						<p>
+							<label for>详细地址:</label>
+							<i>*</i>
+							<input class="paycfm_peraddress" type="text"/>
+						</p>
+						<p>
+							<label for>邮政编码:</label>
+							<i>*</i>
+							<input class="paycfm_perpostcode" type="text"/>
+						</p>
+						<p>
+							<label for>手机号码:</label>
+							<i>*</i>
+							<input class="paycfm_perphone" type="text"/>
+						</p>
+						<p>
+							<label for>邮箱:</label>
+							<input class="paycfm_peremail" type="text"/>
+						</p>
+						<p class="save_btn">
+							<a href="##" id="save_address">保存并使用</a>
+						</p>
+					</div>
+					<div class="user_addressbox">
+						<h3>已有地址：</h3>
+						<!--<div class="user_address">
+							<p class="user_name">杨浩萌</p>
+							<p class="user_place">成都</p>
+							<p class="user_postcode">610200</p>
+							<p class="user_mobile">18227642522</p>
+							<p class="user_mail">417734593@qq.com</p>
+							<button class="del_address">删除这条地址</button>
+						</div> -->
+					</div>
+				</div>
+				
+				<!--购物车商品列表-->
+				
+				<div class="paycfm_probox">
+					<h2 class="paycfm_title">
+						<span>2</span>
+						<em>商品清单</em>
+						<a href="shopCar.html"><<返回购物车</a>
+					</h2>
+					<div class="goodsBox"></div>
+					<div class="priceBox">
+						<div class="price_list">
+							<p>
+								<em>
+									<i>￥</i>
+									<span id="total_amount">87.00</span>
+								</em>
+								<span class="total_cont">总价:</span>
+							</p>
+							<p>
+								<em>
+									<i>￥</i>
+									<span class="freight">5.00</span>
+								</em>
+								<span class="total_cont">运费:</span>
+							</p>
+							<p>
+								<em>
+									<i>￥</i>
+									<span class="fvr_freight">-5.00</span>
+								</em>
+								<span class="total_cont">运费优惠:</span>
+							</p>
+							<p class="paycfm_total">
+								<em>
+									<i>￥</i>
+									<span class="need_pay">87.00</span>
+								</em>
+								<span class="total_cont">需付总金额:</span>
+							</p>
+						</div>
+					</div>									
+				</div>
+				
+				<!--支付平台-->
+				<div class="paycfm_waybox">
+					<h2 class="paycfm_title">
+						<span>3</span>
+						<em>支付平台</em>
+					</h2>
+					<div class="payonline_way">
+						<dl>
+							<dt>支付平台</dt>
+							<dd class="current">
+								<label for></label>
+								<div class="pay_way_list alipay"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipayQr"></div>
+							</dd>
+						</dl>
+						<dl>
+							<dt>网银支付</dt>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+							<dd>
+								<label for></label>
+								<div class="pay_way_list alipay_CMB"></div>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				
+				<!--订单备注-->
+				<div class="paycfm_beizhubox">
+					<h2 class="paycfm_title">
+						<span>3</span>
+						<em>订单备注</em>
+					</h2>
+					<div class="paycfm_contbox">
+						<div class="beiZhuBox">
+							<p>如您有特殊要求，请在此处留言，限140字以内</p>
+							<input class="beiZhu_info" type="text"/>
+						</div>
+						<div class="makeSureBox">
+							<a href="##" class="makeSure_btn">确定订单</a>
+							<span>
+								应付金额：<i>￥</i><em class="need_pay">87.00</em>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--页脚-->
+		<div id="footer">
+		</div>
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>		
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/common/common.js" ></script>
+		<script type="text/javascript" src="../lib/area.js" ></script>
+		<script>
+			loadHtml("common/header.html","header");
+			loadHtml("common/top.html","top");
+			loadHtml("common/footer.html","footer");
+		</script>
+		<script src="../js/common/header.js"></script>
+		<script src="../js/common/footer.js"></script>
+		<script type="text/javascript" src="../js/pay.js" ></script>
+	</body>
+</html>

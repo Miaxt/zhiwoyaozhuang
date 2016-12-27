@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../lib/jquery.idcode.css" />
+		<link rel="stylesheet" href="../lib/zeroModal.css" />
+		<link rel="stylesheet" href="../css/regist.css" />
+	</head>
+	<body>
+		<div id="top">
+			
+		</div>
+		<!--头部-->
+		<div id="regist_header">
+			<div class="regist_header">
+				<div class="header_logo">
+					<a href="index.html"><img src="../images/common/logo.jpg"/></a>
+				</div>
+				<div class="header_tipinfo">
+					<img src="../images/regist/tipinfo.jpg" />
+				</div>
+			</div>
+		</div>
+		
+			
+		<!--主体部分-->
+		<div id="container">
+			<div class="container">
+				<div class="conBanner"></div>
+				
+					
+				<!--表单-->
+				<div class="reg_box">
+					<div class="userlogin_title">
+						<p>
+							<span>注册</span><a href="login.html"><span>已有知我账号？</span>登录</a>
+						</p>
+					</div>
+					<div class="userlogin_info">
+						<form class="regist_user">
+							<div class="user_info phone">
+								<p class="u_info_txt">
+									<input id="signup_mobile" class="sign_txt" name="mobile" placeholder="请输入您的手机号" isvalid="false" type="text"/>
+								</p>
+								<p class="error">手机格式有误请重新输入</p>
+							</div>
+							<div class="user_info password">
+								<p class="u_info_txt">
+									<input id="signup_password" class="sign_txt" name="password" placeholder="请输入密码" isvalid="false" type="password"/>
+								</p>
+								<p class="error">密码长度需6-16字符</p>								
+							</div>
+							<div class="user_info password_confirm">
+								<p class="u_info_txt">
+									<input id="signup_passwordConfirm" class="sign_txt" name="passwordComfirm" placeholder="确定密码" isvalid="false" type="password"/>
+								</p>
+								<p class="error"></p>	
+							</div>
+							<div class="user_info code">
+								<p class="u_info_txt">
+									<input id="Txtidcode" class="sign_txt txtVerification" name="verifyCode" placeholder="请输入验证码" isvalid="false" type="text"/>
+									<span id="idcode"></span>
+									<span id="change_code">换一张</span>
+								</p>
+								<p class="error">验证码输入有误，请重新输入</p>
+							</div>
+							<div class="user_btn">
+								<p>
+									<input type="submit" id="signup_submit" value="同意协议并注册" />
+								</p>
+								<p class="xieYi">
+									<a href="##">《知我网用户协议》</a>
+								</p>
+							</div>
+						</form>
+					</div>
+					<div class="userlogin_other">
+						<p>合作网站登录</p>
+						<ul class="ext_connect">
+							<li class="qq"><a href="##">QQ</a></li>
+							<li class="zhifubao"><a href="##">支付宝</a></li>
+							<li class="weibo"><a href="##">新浪微博</a></li>
+							<li class="other360"><a href="##">360</a></li>
+							<li class="baidu"><a href="##">百度</a></li>
+							<li class="renren"><a href="##">人人</a></li>
+							<li class="xunlei"><a href="##">迅雷</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			
+		</div>
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script  src="../lib/jquery.idcode.js"></script>
+		<script type="text/javascript" src="../lib/zeroModal.js" ></script>
+		<script type="text/javascript" src="../js/common/common.js" ></script>
+		<script>
+			loadHtml("common/top.html","top");
+			loadHtml("common/footer.html","footer");
+		</script>
+		<script src="../js/common/header.js"></script>
+		<script src="../js/common/footer.js"></script>
+		<script type="text/javascript" src="../js/regist.js" ></script>		
+	</body>
+</html>

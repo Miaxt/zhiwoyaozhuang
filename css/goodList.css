@@ -1,0 +1,246 @@
+	/*导航条改变*/
+	.list{
+		width:889px;
+		left:214px;
+	}
+	.goodList_img{
+		display: none;
+	}
+
+	/*主体*/
+	#container{
+	    padding-bottom: 35px;
+	    background: #f6f6f3;
+	    width:100%;
+	    position: relative;
+	    overflow: hidden;
+    }
+	   /*上部分导航图片*/
+	.play_img{
+		width:100%;
+		height: 350px;
+    	overflow: hidden;
+	}
+	.play_img a{
+	    display: block;
+	    width: 100%;
+	    height: 350px;
+	    background: url(../images/goodList/listPlay.jpg) no-repeat center top;
+	}
+	/*左边导航条*/
+	.subNav{
+		width: 214px;
+	    height: 538px;
+	    background: #fff;
+	    padding: 22px 0 0 26px;
+	    position: absolute;
+	    top: 0px;
+	    left: 50%;
+	    margin-left: -552px;
+	    z-index: 300;
+	    overflow: hidden;
+	}
+	.subNav dl{
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+	.subNav dt{
+	    line-height: 23px;
+	    padding-left: 24px;
+	}
+	.subNav dd{
+		float: left;
+	    padding-left: 15px;
+	    margin-top: 14px;
+	    overflow: hidden;
+	}
+	/*下部分主体*/
+	.container{
+		width:1103px;
+		margin:0 auto;
+		padding-top: 20px;
+	}
+	.skin_adviser{
+		margin-left:265px;
+		overflow: hidden;
+	}
+	.cb_title_h2{
+		font-size: 18px;
+	    color: #000;
+	    font-weight: normal;
+	    overflow: hidden;
+	}
+	.cb_title_h2 p{
+	    float: left;
+	}
+	.cb_title_h2 span {
+    	margin-right: 12px;
+	}	
+	.cb_title_h2 i{
+		font-style: normal;
+	    font-family: Arial;
+	    text-transform: uppercase;
+	}
+	.skin_quesition{
+	    margin-top: 20px;
+	}
+	.skin_sel_type{
+		overflow: hidden;
+    	margin-bottom: 20px;
+	}
+	.skin_sel_title{
+		font-size: 14px;
+	    font-weight: bold;
+	    float: left
+	}
+	.skin_sel_item{
+	    float: left;
+	    width: 820px;
+	    margin-left: -60px;
+	    overflow: hidden;
+	}
+	.skin_sel_item label{
+	    float: left;
+	    margin-left: 72px;
+	    font-size: 14px;
+	    padding-left: 24px;
+	    cursor: pointer;
+	}
+	.skin_sel_problem{
+	   overflow: hidden;
+	}
+	.skin_sel_problem .skin_sel_item{
+	    width: 800px;
+	    margin-left: -40px;
+	    padding-bottom: 10px;
+	}
+	.skin_sel_problem .skin_sel_item label{
+	    margin-left: 52px;
+	    margin-bottom: 12px;
+	}
+	.skin_quesition_btn{
+	    width: 730px;
+	    margin-left: 86px;
+	    padding-top: 15px;
+	    border-top: 1px #cfcfcf dashed;
+	}
+	.skin_quesition_btn p{
+	    float: left;
+	    width: 90px;
+	    height: 26px;
+	    line-height: 26px;
+	    text-align: center;
+	}
+	.skin_quesition_btnsave{
+	    background: #00c8ff;
+	    margin-right: 23px;
+	}
+	.skin_quesition_btn p a{
+	    display: block;
+	    width: 90px;
+	    height: 26px;
+	    color: #fff;
+	}
+	.skin_quesition_btnway{
+	    background: #ff643c;
+	}
+	.mall_floor{
+	    margin-top: 35px;
+	    position: relative;
+	}
+	.mall_floorchild{
+	    margin-bottom: 30px;
+	    overflow: hidden;
+	}
+	.mallfloor_list{
+	    margin-top: 20px;
+	}
+	.mallfloor_list_ad{
+	    float: left;
+	    width: 546px;
+	}
+	.mallfloor_list_ad1{
+	    width: 546px;
+	    height: 376px;
+	    margin-bottom: 10px;
+	}
+	.mallfloor_list_ad1 img{
+		width: 546px;
+	    height: 376px;
+	}
+	.mallfloor_list_ad2{
+	    width: 546px;
+    	height: 183px;
+	}
+	.mallfloor_list_ad2 img{
+	    width: 546px;
+    	height: 183px;
+	}
+	.mallfloor_list_goods{
+	    float: right;
+	    width: 554px;
+	}
+	.mallfloor_list_goods ul{
+	   margin-top: -10px;
+	}
+	.mf_listgoods_small{
+		width: 267px;
+	    height: 183px;
+	    margin: 10px 0 0px 10px;
+	}
+	.mallfloor_list_goods li{
+	    float: left;
+	}
+	.mallfloor_list_goods li a{
+	    width: 100%;
+	    height: 100%;
+	    display: block;
+	    position: relative;
+	    color: #6c6c6c;
+	    background: #fff;
+	    overflow: hidden;
+	}
+	.mf_list_goodsinfo{
+	    width: 96px;
+	    float: left;
+	    margin: 24px 0 0 14px;
+	}
+	.mf_list_ginfoname{
+	    width: 96px;
+	    height: 34px;
+	    line-height: 1.5;
+	    overflow: hidden;
+	    margin-bottom: 6px;
+	}
+	.mf_list_ginfoprice{
+	    font-size: 14px;
+	    color: rgb(255, 100, 60);
+	}
+	.mf_list_goodsimg{
+	    float: right;
+	    width: 150px;
+	    height: 150px;
+	    margin-top: 33px;
+	}
+	.mf_listgoods_big{
+	    width: 267px;
+	    height: 376px;
+	    margin: 10px 0 0 10px;
+	}
+	.mf_list_goodsimg img{
+	    display: block;
+	    width: 150px;
+	    height: 150px;
+	}
+	.mf_listgoods_big .mf_list_goodsinfo{
+	    width: 170px;
+	}
+	.mf_listgoods_big .mf_list_goodsimg{
+	    width: 267px;
+	    height: 267px;
+	    margin-top: 10px;
+	}
+	.mf_listgoods_big .mf_list_goodsimg img{
+	    width: 267px;
+	    height: 267px;
+	}

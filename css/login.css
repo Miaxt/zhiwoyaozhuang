@@ -1,0 +1,206 @@
+
+/*登录头部*/
+	#regist_header{
+		width:100%;
+		height:108px;
+		background:#fff;
+	}
+	.regist_header{
+		width:1103px;
+		margin:0 auto
+	}
+	.header_logo{
+		float:left;
+		width:260px;
+		height:108px;;
+	}
+	.header_tipinfo{
+		float:right;
+		width:452px;
+		height:108px;
+	}
+	
+	/*注册页主体*/
+	#container{
+		width:100%;
+		background: #f2f2f2;
+	}
+	.container{
+		width:100%;
+		height:785px;
+		position: relative;
+	}
+	.conBanner{
+		width:100%;
+		height:785px;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1;
+		background: url(../images/login/login_banner.jpg) no-repeat center top;
+	}
+	
+/*登录栏*/
+	.login_box{
+		width:326px;
+		height:459px;
+		background: #fff;
+		background: #fff;
+	    position: absolute;
+	    top: 125px;
+	    left: 50%;
+	    z-index: 2;
+	    margin-left: 145px;
+	    box-shadow: 0 0 26px #fcdfdf;
+	    padding: 30px 40px 40px;
+	}	
+	
+	.userlogin_title{
+		margin-bottom: 30px;
+	}
+	.userlogin_title p{
+		overflow: hidden;
+	}
+	.userlogin_title span{
+		font-size:24px;
+		color:#000;
+		float: left;
+	}
+	.userlogin_title a{
+	    font-size: 16px;
+	    color: #00c8ff;
+	    float: right;
+	    margin-top: 7px;
+	}
+	.userlogin_title a span{
+		font-size:12px;
+		color:#C4C4C4;
+		margin-top:6px ;		
+	}
+
+	.user_info{
+		height:56px;
+	}
+	.username{
+		margin-bottom: 9px;
+		height:auto;
+	}
+	.u_info_name{
+		overflow: hidden;
+		margin-bottom: 4px;
+		font-size:16px;
+	}
+	.password{
+		margin-bottom: 10px;
+		height:auto;
+	}
+	.u_info_txt{
+		position: relative;
+	}
+	.u_info_txt input{
+		width:314px;
+		height:16px;
+	    border: 1px #c4c4c4 solid;
+	    font-size: 14px;
+	    padding: 7px 0;
+	    color: #6c6c6c;
+	    padding-left: 10px;
+	}
+	.code .u_info_txt{
+		overflow: hidden;
+	}
+	.code .u_info_txt input{
+		width:165px;
+		float:left;
+	}
+	.code .u_info_txt img{
+	    margin: 7px 0 0 21px;
+	    float: left;
+	    width: 75px;
+	    height: 20px;
+	}
+	.code .u_info_txt span {
+	    float: left;
+	    color: #00c8ff;
+	    margin: 9px 0 0 11px;
+	    font-size: 14px;
+	    cursor: pointer;
+	}
+	.user_btn input {
+	    width: 326px;
+	    height: 36px;
+	    color: rgb(255, 255, 255);
+	    text-align: center;
+	    line-height: 36px;
+	    font-size: 20px;
+	    letter-spacing: 0px;
+	    padding-left: 6px;
+	    cursor: pointer;
+	    background: rgb(0, 200, 255);
+	    border-width: 0px;
+	    border-style: initial;
+	    border-color: initial;
+	    border-image: initial;
+	}
+	
+	.user_operate{
+		width:326px;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.auto_login{
+		float: left;			
+	}
+	.auto_login input{
+		cursor: pointer;
+		vertical-align:middle;
+	}
+	.auto_login label{
+		cursor: pointer;
+		height:14px;			
+		padding-left:3px;			
+	}
+	.forget_password{
+		float:right;
+	}
+	.userlogin_other{
+		padding-top: 16px;
+		border-top: 1px #e3e3e3 dotted;
+	}
+	.ext_connect{
+		margin-top:14px;			
+	}
+	.ext_connect li{
+		margin-left:20px;
+		float:left;
+		height:30px;
+	}
+	.ext_connect li a{
+		background:url(../images/common/other_autoico.png) no-repeat;
+		padding-left:30px;
+		display: block;
+		height:30px;
+		line-height:23px;
+	}
+	.ext_connect .zhifubao a{
+		background-position: 0 -30px;
+	}
+	.ext_connect .weibo a{
+		background-position: 0 -60px;
+	}
+	.ext_connect .other360 a{
+		background-position: 0 -90px;
+	}
+	.ext_connect .baidu a{
+		background-position: 0 -120px;
+	}
+	.ext_connect .renren a{
+		background-position: 0 -150px;
+	}
+	.ext_connect .xunlei a{
+		background-position: 0 -180px;
+	}
+	#change_code{
+		margin-left:10px;
+		_margin-left:5px;
+	}

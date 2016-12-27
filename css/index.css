@@ -1,0 +1,677 @@
+	/*顶部图片*/
+	
+	#top_img {
+		width: 100%;
+		height: 300px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	#top_img .top_img_big {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 300px;
+		background: url(../images/index/top_img_big.jpg) no-repeat center top;
+		z-index: 100;
+	}
+	
+	#top_img .top_img_small {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100px;
+		background: url(../images/index/top_img_small.jpg) no-repeat center top;
+		z-index: 99;
+	}
+	
+	#top_img span {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		margin-left: 550px;
+		width: 17px;
+		height: 40px;
+		cursor: pointer;
+		background: url(../images/index/fold.jpg);
+		z-index: 102;
+		display: none;
+	}
+	/*banner*/
+	
+	#banner {
+		position: relative;
+	}
+	
+	.banner {
+		height: 350px;
+		width: 100%;
+		position: relative;
+	}
+	
+	.banner li {
+		position: absolute;
+		height: 350px;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.banner li a {
+		display: block;
+		height: 350px;
+		width: 100%;
+	}
+	
+	.banner li+li {
+		display: none;
+	}
+	
+	.banner_1 {
+		background: url(../images/index/banner1.jpg) no-repeat center top;
+	}
+	
+	.banner_2 {
+		background: url(../images/index/banner2.jpg) no-repeat center top;
+	}
+	
+	.banner_3 {
+		background: url(../images/index/banner3.jpg) no-repeat center top;
+	}
+	
+	.banner_4 {
+		background: url(../images/index/banner4.jpg) no-repeat center top;
+	}
+	
+	.banner_5 {
+		background: url(../images/index/banner5.jpg) no-repeat center top;
+	}
+	
+	#banner p {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		margin-left: -52px;
+	}
+	
+	#banner p a {
+		display: inline-block;
+		height: 10px;
+		width: 10px;
+		background: #6c6c6c;
+		margin-right: 10px
+	}
+	
+	#banner p a.active {
+		background: #00c8ff;
+	}
+	/*主体*/
+	/*楼梯*/
+	
+	.side_nav {
+		position: fixed;
+		left: 50%;
+		margin-left: -625px;
+		top: 200px;
+		display: none;
+	}
+	
+	.side_nav li {
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		margin-bottom: 1px;
+		background: rgb(255, 255, 255);
+	}
+	
+	.side_nav a {
+		color: rgb(108, 108, 108);
+		width: 60px;
+		height: 59px;
+		display: block;
+		border-bottom: 1px dotted rgb(196, 196, 196);
+	}
+	
+	.side_nav li.active a {
+		color: #FF643C;
+	}
+	
+	.side_nav .snav_index {
+		background: rgb(0, 200, 255);
+	}
+	
+	.side_nav .snav_index a {
+		color: #FFF;
+		padding-top: 10px;
+		height: 49px;
+	}
+	
+	.snav_deals a,
+	.snav_group a,
+	.snav_main a {
+		padding-top: 40px;
+		height: 19px;
+	}
+	
+	.side_nav .snav_main a {
+		background: url(../images/index/snav.png) no-repeat 0 -60px;
+	}
+	
+	.side_nav .snav_group a {
+		background: url(../images/index/snav.png) no-repeat 0 -118px;
+	}
+	
+	.side_nav .snav_deals a {
+		background: url(../images/index/snav.png) no-repeat 0 -176px;
+	}
+	
+	#main {
+		width: 100%;
+		height: auto;
+		background: #f6f6f3;
+		padding-bottom: 35px;
+	}
+	
+	.main {
+		width: 1103px;
+		height: auto;
+		margin: 0 auto;
+		padding-top: 39px;
+	}
+	/*今日头条*/
+	
+	.today_headlines {
+		width: 100%;
+		height: 1151px;
+	}
+	
+	.today_headlines h3 {
+		width: 100%;
+		font-size: 22px;
+		text-align: center;
+	}
+	
+	.today_headlines dt,
+	.today_headlines dd {
+		float: left;
+	}
+	
+	.today_headlines dl {
+		width: 100%;
+		height: 350px;
+		background: #fff;
+		margin-top: 22px;
+	}
+	
+	.today_headlines dd {
+		padding: 26px 50px 0;
+		font-size: 14px;
+		height: 324px;
+		width: 350px;
+	}
+	
+	.today_head_center a span {
+		color: #ff643c;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+	
+	.today_headlines img {
+		width: 650px;
+		height: 350px;
+	}
+	
+	.today_headlines dd h6 {
+		text-align: center;
+		margin-bottom: 23px;
+	}
+	
+	.today_head_center {
+		height: 154px;
+		margin-bottom: 40px;
+		line-height: 24px;
+		color: #6c6c6c;
+	}
+	
+	.bottom_left {
+		float: left;
+	}
+	
+	.bottom_left i {
+		font-size: 15px;
+		float: left;
+		font-style: normal;
+	}
+	
+	.bottom_left span {
+		font-size: 26px;
+		float: left;
+	}
+	
+	.bottom_left del {
+		font-size: 9px;
+		float: left;
+		margin-top: 16px;
+		margin-left: 8px;
+	}
+	
+	.bottom_right {
+		float: right;
+		background: #ff643c;
+	}
+	
+	.bottom_right a {
+		display: block;
+		width: 140px;
+		height: 36px;
+		text-align: center;
+		line-height: 36px;
+		font-size: 18px;
+		color: white;
+	}
+	/*品牌团*/
+	
+	#brands {
+		width: 100%;
+		height: 424px;
+		margin-top: 16px;
+	}
+	
+	.total_header {
+		height: 57px;
+		font-size: 17px;
+		line-height: 57px;
+	}
+	
+	#brands ul li {
+		float: left;
+	}
+	
+	#brands ul li+li {
+		margin-left: 25px;
+		_margin-left: 12px;
+	}
+	/*小知推荐*/
+	
+	.recommedned {
+		height: 439px;
+		width: 100%;
+	}
+	
+	.r_list {
+		width: 100%;
+		height: 360px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.r_main {
+		width: 4480px;
+		overflow: hidden;
+	}
+	
+	.r_main img {
+		width: 260px;
+		height: 260px;
+	}
+	
+	.r_prev,.r_next {
+		width: 29px;
+		height: 29px;
+		position: absolute;
+		background: #898989;
+		text-align: center;
+		line-height: 32px;
+		font-size: 20px;
+		cursor: pointer;
+		color: #fff;
+	}
+	
+	.r_prev {
+		left: 10px;
+		top: 116px;
+	}
+	
+	.r_next {
+		right: 10px;
+		top: 116px;
+	}
+	
+	.r_main li {
+		float: left;
+		width: 260px;
+		height: 360px;
+		margin-right: 20px;
+		background: #fff;
+	}
+	
+	.r_main_bottom {
+		padding: 11px 10px 0;
+		height: 89px;
+	}
+	
+	.pro_name a {
+		width: 240px;
+		color: #6c6c6c;
+		display: block;
+		height: 42px;
+		overflow: hidden;
+	}
+	
+	.now_price {
+		font-size: 11px;
+		color: #ff643c;
+		float: left;
+	}
+	
+	.now_price i {
+		margin-right: 5px;
+	}
+	
+	.pro_buy {
+		margin-top: 6px;
+	}
+	
+	.now_price i {
+		font-style: normal;
+	}
+	
+	.now_price span {
+		margin-left: -6px;
+		font-size: 18px;
+	}
+	
+	.now_price del {
+		color: #c4c4c4;
+	}
+	
+	.buy_btn {
+		float: right;
+	}
+	
+	.buy_btn a {
+		display: block;
+		width: 90px;
+		color: #fff;
+		height: 26px;
+		text-align: center;
+		line-height: 26px;
+		background: #ff643c;
+	}
+	/*品牌栏*/
+	
+	#brand {
+		width: 100%;
+		height: 290px;
+		margin-top: 35px;
+	}
+	
+	.brand_top {
+		height: 30px;
+		width: 100%;
+		border-bottom: 1px solid #6c6c6c;
+	}
+	
+	.brand_allbtn {
+		float: right;
+	}
+	
+	.brand_top li,
+	.brand_top ul {
+		float: left;
+	}
+	
+	.brand_top li {
+		width: 140px;
+		height: 30px;
+		text-align: center;
+		font-size: 14px;
+		font-weight: bold;
+		position: relative;
+	}
+	
+	.brand_top li i {
+		width: 100%;
+		height: 2px;
+		background: #00C8FF;
+		position: absolute;
+		left: 0;
+		top: 29px;
+		display: none;
+	}
+	
+	.brand_top li a.active {
+		color: #00c8ff;
+	}
+	
+	.brand_bottom {
+		position: relative;
+		margin-top: 4px;
+		overflow: hidden;
+	}
+	
+	.brand_main {
+		display: none;
+	}
+	
+	.brand_main_left {
+		width: 840px;
+		overflow: hidden;
+		float: left;
+	}
+	
+	.brand_main_left ul li {
+		float: left;
+		margin: 8px 8px 0 0;
+	}
+	
+	.brand_main_left img {
+		width: 160px;
+		height: 102px;
+	}
+	
+	.brand_main_right {
+		margin-top: 12px;
+		float: right;
+	}
+	
+	.brand_main_right img {
+		width: 260px;
+		height: 212px;
+	}
+	
+	.brand_prev,
+	.brand_next {
+		font-size: 44px;
+		position: absolute;
+		z-index: 100;
+		color: #8e8e96;
+		cursor: pointer;
+		bottom: 81px;
+	}
+	
+	.brand_prev {
+		right: 230px;
+	}
+	
+	.brand_next {
+		right: 8px;
+	}
+	/*今日新品*/
+	
+	#today_deals {
+		width: 100%;
+		height: auto;
+	}
+	
+	#today_deals ul {
+		margin-left: -25px;
+		overflow: hidden;
+	}
+	
+	#today_deals ul li {
+		float: left;
+		width: 350px;
+		height: 507px;
+		margin: 25px 0 0 25px;
+		background: #fff;
+	}
+	.deals_top{
+		position: relative;
+	}
+	.img_efficacy{
+		position: absolute;
+	    bottom: 0px;
+	    left: 0;
+	    width: 335px;
+	    text-align: center;
+	    padding-left: 15px;
+	    display: none;
+	   z-index: 103;
+	}
+	.img_efficacy a{
+		text-align: center;
+	    padding: 6px 16px;
+	    border: 1px #00c8ff solid;
+	    color: #00c8ff;
+	    margin-right: 15px;
+	    display: inline-block;
+	}
+	.deals_center {
+		padding: 10px 20px 0;
+	}
+	
+	.deals_name a {
+		display: block;
+		line-height: 20px;
+		margin-bottom: 12px;
+	}
+	
+	.deals_name span {
+		color: #ff643c;
+		font-size: 16px;
+	}
+	
+	.deals_pro {
+		height: 53px;
+	}
+	
+	.deals_price {
+		color: #ff643c;
+		font-size: 11px;
+		float: left;
+	}
+	
+	.deals_price i {
+		font-style: normal;
+	}
+	
+	.deals_price span {
+		font-size: 26px;
+	}
+	
+	.deals_price del {
+		color: #c4c4c4;
+		margin-left: 10px;
+	}
+	
+	.deals_buy_btn {
+		margin-top: 5px;
+		float: right;
+	}
+	
+	.deals_buy_btn a {
+		display: block;
+		width: 90px;
+		height: 26px;
+		background: #ff643c;
+		color: #fff;
+		text-align: center;
+		line-height: 26px;
+	}
+	
+	.deals_clock {
+		line-height: 40px;
+		border-top: 1px dashed #c4c4c4;
+		color: #c4c4c4;
+	}
+	
+	.deals_clock span {
+		float: right;
+	}
+	
+	.deals_clock p {
+		padding-left: 23px;
+		background: url(../images/index/ico2.png) no-repeat 0 -220px;
+	}
+	/*尾部搜索*/
+	
+	.main_bottom {
+		width: 100%;
+		height: 120px;
+		background: #FFF;
+		margin-top: 35px;
+		position: relative;
+	}
+	
+	.main_bottom form {
+		position: absolute;
+		left: 251px;
+		top: 30px;
+	}
+	#bottom_search {
+		width: 498px;
+		height: 36px;
+		border: #00c8ff 2px solid;
+		border-right: 0;
+		padding-left: 10px;
+		color: #6c6c6c;
+	}
+	
+	#bottom_search_btn {
+		vertical-align: bottom;
+		display: inline-block;
+		width: 90px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 16px;
+		font-weight: bold;
+		background: #00c8ff;
+		color: #fff
+	}
+	
+	.main_bottom form ul {
+		margin-left: -8px;
+	}
+	
+	.main_bottom form ul li {
+		float: left;
+		width: 43px;
+		text-align: center;
+		margin-top: 7px;
+	}
+	
+	.main_bottom form ul li a {
+		color: #6c6c6c;
+	}
+	
+	.main_bottom .bottom_searchlist{
+		position: absolute;
+		width:328px;
+		background: #fff;
+		left:8px;
+		top:64px;
+		z-index: 120;
+		cursor: pointer;
+		top:40px;
+	}
+	.main_bottom .bottom_searchlist li{
+		padding-left:10px;
+		height:30px;
+		line-height: 30px;
+		float: none;
+		width: auto;
+		text-align: left;
+		margin-top: auto;
+	}
